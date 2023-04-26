@@ -40,7 +40,7 @@ import {
   AtModalAction,
 } from "taro-ui";
 
-const chooseLocation = requirePlugin("chooseLocation");
+// const chooseLocation = requirePlugin("chooseLocation");
 interface Address {
   province: string;
   city: string;
@@ -149,13 +149,14 @@ export default function enterCustomerInformation() {
       });
     },
   };
-  const onClickSelectAddress = () =>
-    locationPicker({
-      key: txMapKey,
-      referer: "fortrust-panda",
-      location: "",
-      category: "",
-    });
+  const onClickSelectAddress = () => {
+    // locationPicker({
+    //   key: txMapKey,
+    //   referer: "fortrust-panda",
+    //   location: "",
+    //   category: "",
+    // });
+  };
   const onClickShowAgreement = (type: string) => {
     setIsOpened(true);
     if (type === "agreement") {
@@ -169,13 +170,13 @@ export default function enterCustomerInformation() {
   };
 
   useDidShow(() => {
-    const location = chooseLocation.getLocation();
-    location &&
-      setAddress({
-        province: location?.province,
-        city: location?.city,
-        address: location?.address,
-      });
+    // const location = chooseLocation.getLocation();
+    // location &&
+    //   setAddress({
+    //     province: location?.province,
+    //     city: location?.city,
+    //     address: location?.address,
+    //   });
   });
 
   useUnload(() => {
