@@ -8,7 +8,7 @@ import pages from "./route";
 
 export default defineAppConfig({
   debug: true,
-  entryPagePath: pages[0],
+  entryPagePath: pages[4], // 主页设置为测试页
   pages,
   window: {
     backgroundTextStyle: "light",
@@ -37,6 +37,12 @@ export default defineAppConfig({
         iconPath: "assets/icon/partner.png",
         selectedIconPath: "assets/icon/partner-selected.png",
         text: "合伙人",
+      },
+      {
+        pagePath: "pages/test/index",
+        iconPath: "assets/icon/partner.png",
+        selectedIconPath: "assets/icon/partner-selected.png",
+        text: "测试",
       },
       // TODO 我的页面,暂隐藏
       // {

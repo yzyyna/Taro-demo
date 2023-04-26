@@ -180,7 +180,7 @@ export default function enterCustomerInformation() {
   });
 
   useUnload(() => {
-    chooseLocation.setLocation(null);
+    // chooseLocation.setLocation(null);
   });
 
   for (let i = 1; i < 13; i++) {

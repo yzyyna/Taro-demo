@@ -14,6 +14,10 @@ import {
   getStorageSync,
   getCurrentInstance,
 } from "@tarojs/taro";
+import { Provider } from "react-redux";
+import configStore from "@/store";
+
+const store = configStore();
 
 class App extends Component<PropsWithChildren> {
   constructor(props) {
@@ -37,7 +41,7 @@ class App extends Component<PropsWithChildren> {
         invitedOpId && (p.invited = invitedOpId);
         openid && console.info("*** 用户非首次加载 ***\n", openid);
         (openid && !invitedOpId) ||
-          fpssLogin(p).then((value: any) => {
+          fpssLogin(p).then((value) => {
             openid = value?.data?.openid;
             (openid &&
               setStorage({
@@ -59,7 +63,7 @@ class App extends Component<PropsWithChildren> {
 
   render() {
     // this.props.children 是将要会渲染的页面
-    return this.props.children;
+    return <Provider store={store}>{this.props.children}</Provider>;
   }
 }
 

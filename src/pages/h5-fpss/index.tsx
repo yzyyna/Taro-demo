@@ -9,7 +9,7 @@ import { View, WebView } from "@tarojs/components";
 import { openidStorageKey } from "@/services/keys";
 
 export default class H5 extends Component {
-  handleMessage(mes) {}
+  // handleMessage(mes) {}
   render() {
     return (
       <View className="h5">
@@ -18,7 +18,7 @@ export default class H5 extends Component {
             "https://minimp.fortrust.cn/leaseh5/#/leaseConsulting?openid=" +
             getStorageSync(openidStorageKey)
           }
-          onMessage={this.handleMessage}
+          // onMessage={this.handleMessage}
         />
       </View>
     );
