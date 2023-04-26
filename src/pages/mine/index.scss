@@ -1,0 +1,41 @@
+@import "~taro-ui/dist/style/components/flex.scss";
+@import "~taro-ui/dist/style/components/list.scss";
+
+.page-mine {
+  padding: 30px;
+  .title-view {
+    padding: 0 0 20px 0;
+    .divider {
+      margin: 0 20px 0 0;
+      border-right: 1px solid gray;
+    }
+    .title {
+      padding: 20px;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .content {
+      padding: 0 0 10px 0;
+    }
+    .left-number {
+      font-size: 1.8rem;
+      font-weight: bold;
+      text-align: right;
+      padding: 0 20px 0 0;
+    }
+    .right-describe {
+      display: flex;
+      text-align: left;
+      font-size: 0.8rem;
+      align-items: flex-end;
+    }
+  }
+  .content-view {
+    .at-list__item-extra {
+      max-width: fit-content;
+      .item-extra__info {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

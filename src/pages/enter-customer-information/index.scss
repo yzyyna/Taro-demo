@@ -1,0 +1,53 @@
+@import "~taro-ui/dist/style/components/list.scss";
+@import "~taro-ui/dist/style/components/form.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/input.scss";
+@import "~taro-ui/dist/style/components/radio.scss";
+@import "~taro-ui/dist/style/components/modal.scss";
+
+.index {
+  padding: 20px;
+}
+.btn-view {
+  .at-button {
+    margin: 20px 0 0 0;
+  }
+}
+.rent-location-view {
+  display: flex;
+  align-items: center;
+}
+.at-input-simulation {
+  margin-left: calc(32px - 24px);
+}
+.describe {
+  > text {
+    display: block;
+    ::before {
+      content: " · ";
+      font-size: 1.1rem;
+    }
+  }
+}
+image {
+  position: absolute;
+  right: calc(24rpx + 30rpx);
+}
+.user-agreement {
+  color: gray;
+  font-size: 0.8rem;
+  margin-left: 32rpx;
+  padding: 10px 0 0 0;
+  .click-text {
+    color: #2765eb;
+  }
+}
+.modal-agreement {
+  white-space: pre-wrap;
+  .at-modal__action {
+    display: flex;
+    color: tomato;
+    padding: 10px 0;
+    justify-content: center;
+  }
+}

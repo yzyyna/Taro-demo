@@ -1,0 +1,14 @@
+@import "~taro-ui/dist/style/components/button.scss";
+
+.index {
+  padding: 20px;
+}
+.bottom-btn-view {
+  bottom: 20px;
+  position: fixed;
+  text-align: center;
+  width: percentage(1);
+  .at-button--small {
+    width: 50%;
+  }
+}

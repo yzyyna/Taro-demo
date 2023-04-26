@@ -1,0 +1,48 @@
+@import "~taro-ui/dist/style/components/flex.scss";
+@import "~taro-ui/dist/style/components/divider.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/toast.scss";
+
+$divider-line-length-per: 90%;
+
+.to-be-partner {
+  padding: 50px 0;
+  text[class="text-center"] {
+    display: block;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .sub-text text {
+    font-size: 1.1rem;
+  }
+  .at-row {
+    text {
+      display: block;
+      ::before {
+        content: "·";
+      }
+    }
+  }
+  .btn-view {
+    display: flex;
+    justify-content: center;
+    > view {
+      width: 70%;
+      margin: 40px 0 0px 0;
+    }
+    .at-button__text {
+      width: 250rpx;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    image {
+      padding: 10px;
+    }
+  }
+  .at-divider__line {
+    left: (100% - $divider-line-length-per)/2;
+    width: $divider-line-length-per;
+  }
+}
