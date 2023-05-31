@@ -10,8 +10,8 @@
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": function() { return /* binding */ enterCustomerInformation; }
 /* harmony export */ });
-/* harmony import */ var E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
-/* harmony import */ var E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _agreement__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./agreement */ "./src/pages/enter-customer-information/agreement.ts");
 /* harmony import */ var _tarojs_taro__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @tarojs/taro */ "./node_modules/@tarojs/taro/index.js");
@@ -43,7 +43,7 @@
 function enterCustomerInformation() {
   // React Hook must be top call
   var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(),
-    _useState2 = (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_5__["default"])(_useState, 2),
+    _useState2 = (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_5__["default"])(_useState, 2),
     address = _useState2[0],
     setAddress = _useState2[1];
   // Must initial this state *** 避免更新 state 时 ts 报错找不着参数
@@ -54,28 +54,28 @@ function enterCustomerInformation() {
       power: "",
       rentTime: ""
     }),
-    _useState4 = (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_5__["default"])(_useState3, 2),
+    _useState4 = (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_5__["default"])(_useState3, 2),
     form = _useState4[0],
     setForm = _useState4[1];
   var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
-    _useState6 = (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_5__["default"])(_useState5, 2),
+    _useState6 = (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_5__["default"])(_useState5, 2),
     isOpened = _useState6[0],
     setIsOpened = _useState6[1];
   var _useState7 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(""),
-    _useState8 = (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_5__["default"])(_useState7, 2),
+    _useState8 = (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_5__["default"])(_useState7, 2),
     modalTitle = _useState8[0],
     setModalTitle = _useState8[1];
   var _useState9 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(""),
-    _useState10 = (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_5__["default"])(_useState9, 2),
+    _useState10 = (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_5__["default"])(_useState9, 2),
     modalContent = _useState10[0],
     setModalContent = _useState10[1];
   var _useState11 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
-    _useState12 = (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_5__["default"])(_useState11, 2),
+    _useState12 = (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_5__["default"])(_useState11, 2),
     radioCheckedAgreement = _useState12[0],
     setRadioCheckedAgreement = _useState12[1];
   var selector = ["工地用电", "工业用电", "展会用电", "演唱会用电", "其他"];
   var selectorRentTime = [];
-  var imageSrcLocation = __webpack_require__(/*! ../../../src/assets/icon/select-location.png */ "./src/assets/icon/select-location.png");
+  var imageSrcLocation = __webpack_require__(/*! ../../../../src/assets/icon/select-location.png */ "./src/assets/icon/select-location.png");
   var imageSrcLocationSize = "28px";
   var lpShowToast = function lpShowToast(title) {
     (0,_tarojs_taro__WEBPACK_IMPORTED_MODULE_2__.showToast)({
@@ -91,7 +91,7 @@ function enterCustomerInformation() {
   };
   var onSubmit = function onSubmit() {
     var openid = (0,_tarojs_taro__WEBPACK_IMPORTED_MODULE_2__.getStorageSync)(_services_keys__WEBPACK_IMPORTED_MODULE_6__.openidStorageKey);
-    var submitForm = (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])((0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])((0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])({}, address), form), {}, {
+    var submitForm = (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])((0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])((0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])({}, address), form), {}, {
       openid: openid,
       term: form.rentTime
     });
@@ -101,7 +101,7 @@ function enterCustomerInformation() {
     });
     if (judgeFormValid()) {
       if (radioCheckedAgreement) {
-        (0,_services_api__WEBPACK_IMPORTED_MODULE_3__.addCustomer)((0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])({}, submitForm)).then(function () {
+        (0,_services_api__WEBPACK_IMPORTED_MODULE_3__.addCustomer)((0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])({}, submitForm)).then(function () {
           (0,_tarojs_taro__WEBPACK_IMPORTED_MODULE_2__.showToast)({
             title: "提交成功"
           });
@@ -119,19 +119,19 @@ function enterCustomerInformation() {
   };
   var onChangeFrom = {
     name: function name(_name) {
-      setForm((0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])((0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])({}, form), {}, {
+      setForm((0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])((0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])({}, form), {}, {
         name: _name
       }));
       return _name;
     },
     phone: function phone(_phone) {
-      setForm((0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])((0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])({}, form), {}, {
+      setForm((0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])((0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])({}, form), {}, {
         phone: _phone
       }));
       return _phone;
     },
     power: function power(_power) {
-      setForm((0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])((0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])({}, form), {}, {
+      setForm((0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])((0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])({}, form), {}, {
         power: _power
       }));
       return _power;
@@ -139,14 +139,14 @@ function enterCustomerInformation() {
     scene: function scene(e) {
       var _e$detail;
       var value = Number(e === null || e === void 0 ? void 0 : (_e$detail = e.detail) === null || _e$detail === void 0 ? void 0 : _e$detail.value);
-      setForm((0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])((0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])({}, form), {}, {
+      setForm((0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])((0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])({}, form), {}, {
         scene: selector[value]
       }));
     },
     rentTime: function rentTime(e) {
       var _e$detail2;
       var value = Number(e === null || e === void 0 ? void 0 : (_e$detail2 = e.detail) === null || _e$detail2 === void 0 ? void 0 : _e$detail2.value);
-      setForm((0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])((0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])({}, form), {}, {
+      setForm((0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])((0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_7__["default"])({}, form), {}, {
         rentTime: selectorRentTime[value]
       }));
     }

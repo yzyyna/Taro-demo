@@ -21,7 +21,7 @@
 /* harmony export */   "AtToast": function() { return /* binding */ AtToast; }
 /* harmony export */ });
 /* unused harmony exports AtAccordion, AtActionSheet, AtActionSheetItem, AtActivityIndicator, AtAvatar, AtBadge, AtCalendar, AtCard, AtCheckbox, AtComponent, AtCountdown, AtCurtain, AtDrawer, AtFab, AtFloatLayout, AtGrid, AtIcon, AtImagePicker, AtIndexes, AtInputNumber, AtLoadMore, AtLoading, AtMessage, AtNavBar, AtNoticebar, AtPagination, AtProgress, AtRadio, AtRange, AtRate, AtSearchBar, AtSegmentedControl, AtSlider, AtSteps, AtSwipeAction, AtSwitch, AtTabBar, AtTabs, AtTabsPane, AtTag, AtTextarea, AtTimeline */
-/* harmony import */ var E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/typeof.js */ "./node_modules/@babel/runtime/helpers/esm/typeof.js");
+/* harmony import */ var E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/typeof.js */ "./node_modules/@babel/runtime/helpers/esm/typeof.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _tarojs_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @tarojs/components */ "./node_modules/@tarojs/plugin-platform-weapp/dist/components-react.js");
 /* harmony import */ var _tarojs_taro__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @tarojs/taro */ "./node_modules/@tarojs/taro/index.js");
@@ -126,7 +126,7 @@ var classnames = createCommonjsModule(function (module) {
       for (var i = 0; i < arguments.length; i++) {
         var arg = arguments[i];
         if (!arg) continue;
-        var argType = (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(arg);
+        var argType = (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(arg);
         if (argType === 'string' || argType === 'number') {
           classes.push(arg);
         } else if (Array.isArray(arg)) {
@@ -187,7 +187,7 @@ var b = "function" === typeof Symbol && Symbol.for,
   x = b ? Symbol.for("react.responder") : 60118,
   y = b ? Symbol.for("react.scope") : 60119;
 function z(a) {
-  if ("object" === (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(a) && null !== a) {
+  if ("object" === (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(a) && null !== a) {
     var u = a.$$typeof;
     switch (u) {
       case c:
@@ -243,7 +243,7 @@ var isContextProvider = function isContextProvider(a) {
   return z(a) === h;
 };
 var isElement = function isElement(a) {
-  return "object" === (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(a) && null !== a && a.$$typeof === c;
+  return "object" === (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(a) && null !== a && a.$$typeof === c;
 };
 var isForwardRef = function isForwardRef(a) {
   return z(a) === n;
@@ -270,7 +270,7 @@ var isSuspense = function isSuspense(a) {
   return z(a) === p;
 };
 var isValidElementType = function isValidElementType(a) {
-  return "string" === typeof a || "function" === typeof a || a === e || a === m || a === g || a === f || a === p || a === q || "object" === (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(a) && null !== a && (a.$$typeof === t || a.$$typeof === r || a.$$typeof === h || a.$$typeof === k || a.$$typeof === n || a.$$typeof === w || a.$$typeof === x || a.$$typeof === y || a.$$typeof === v);
+  return "string" === typeof a || "function" === typeof a || a === e || a === m || a === g || a === f || a === p || a === q || "object" === (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(a) && null !== a && (a.$$typeof === t || a.$$typeof === r || a.$$typeof === h || a.$$typeof === k || a.$$typeof === n || a.$$typeof === w || a.$$typeof === x || a.$$typeof === y || a.$$typeof === v);
 };
 var typeOf = z;
 var reactIs_production_min = {
@@ -813,7 +813,7 @@ var factoryWithTypeCheckers = function factoryWithTypeCheckers(isValidElement, t
     return createChainableTypeChecker(validate);
   }
   function isNode(propValue) {
-    switch ((0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(propValue)) {
+    switch ((0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(propValue)) {
       case 'number':
       case 'string':
       case 'undefined':
@@ -881,7 +881,7 @@ var factoryWithTypeCheckers = function factoryWithTypeCheckers(isValidElement, t
 
   // Equivalent of `typeof` but with special handling for array and regexp.
   function getPropType(propValue) {
-    var propType = (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(propValue);
+    var propType = (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(propValue);
     if (Array.isArray(propValue)) {
       return 'array';
     }
@@ -1307,7 +1307,7 @@ function pxTransform(size) {
   return size / deviceRatio[designWidth] + "rpx";
 }
 function objectToString$2(style) {
-  if (style && (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(style) === 'object') {
+  if (style && (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(style) === 'object') {
     var styleStr_1 = '';
     Object.keys(style).forEach(function (key) {
       var lowerCaseKey = key.replace(/([A-Z])/g, '-$1').toLowerCase();
@@ -1326,7 +1326,7 @@ function objectToString$2(style) {
  * @returns {String}
  */
 function mergeStyle(style1, style2) {
-  if (style1 && (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(style1) === 'object' && style2 && (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(style2) === 'object') {
+  if (style1 && (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(style1) === 'object' && style2 && (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(style2) === 'object') {
     return Object.assign({}, style1, style2);
   }
   return objectToString$2(style1) + objectToString$2(style2);
@@ -2333,11 +2333,11 @@ function eq(value, other) {
 var eq_1 = eq;
 
 /** Detect free variable `global` from Node.js. */
-var freeGlobal = (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(commonjsGlobal) == 'object' && commonjsGlobal && commonjsGlobal.Object === Object && commonjsGlobal;
+var freeGlobal = (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(commonjsGlobal) == 'object' && commonjsGlobal && commonjsGlobal.Object === Object && commonjsGlobal;
 var _freeGlobal = freeGlobal;
 
 /** Detect free variable `self`. */
-var freeSelf = (typeof self === "undefined" ? "undefined" : (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(self)) == 'object' && self && self.Object === Object && self;
+var freeSelf = (typeof self === "undefined" ? "undefined" : (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(self)) == 'object' && self && self.Object === Object && self;
 
 /** Used as a reference to the global object. */
 var root = _freeGlobal || freeSelf || Function('return this')();
@@ -2459,7 +2459,7 @@ var _baseGetTag = baseGetTag;
  * // => false
  */
 function isObject(value) {
-  var type = (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(value);
+  var type = (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(value);
   return value != null && (type == 'object' || type == 'function');
 }
 var isObject_1 = isObject;
@@ -2577,7 +2577,7 @@ var reIsUint = /^(?:0|[1-9]\d*)$/;
  * @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
  */
 function isIndex(value, length) {
-  var type = (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(value);
+  var type = (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(value);
   length = length == null ? MAX_SAFE_INTEGER : length;
   return !!length && (type == 'number' || type != 'symbol' && reIsUint.test(value)) && value > -1 && value % 1 == 0 && value < length;
 }
@@ -2597,7 +2597,7 @@ function isIterateeCall(value, index, object) {
   if (!isObject_1(object)) {
     return false;
   }
-  var type = (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(index);
+  var type = (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(index);
   if (type == 'number' ? isArrayLike_1(object) && _isIndex(index, object.length) : type == 'string' && index in object) {
     return eq_1(object[index], value);
   }
@@ -2663,7 +2663,7 @@ var _baseTrim = baseTrim;
  * // => false
  */
 function isObjectLike(value) {
-  return value != null && (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(value) == 'object';
+  return value != null && (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(value) == 'object';
 }
 var isObjectLike_1 = isObjectLike;
 
@@ -2688,7 +2688,7 @@ var symbolTag = '[object Symbol]';
  * // => false
  */
 function isSymbol(value) {
-  return (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(value) == 'symbol' || isObjectLike_1(value) && _baseGetTag(value) == symbolTag;
+  return (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(value) == 'symbol' || isObjectLike_1(value) && _baseGetTag(value) == symbolTag;
 }
 var isSymbol_1 = isSymbol;
 
@@ -7145,7 +7145,7 @@ var dayjs_min = createCommonjsModule(function (module, exports) {
       },
       w = function w(t, e) {
         if (p(t)) return t.clone();
-        var n = "object" == (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(e) ? e : {};
+        var n = "object" == (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(e) ? e : {};
         return n.date = t, n.args = arguments, new _(n);
       },
       O = g;
@@ -9360,7 +9360,7 @@ AtFab.defaultProps = {
   size: 'normal'
 };
 var objectToString = function objectToString(style) {
-  if (style && (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(style) === 'object') {
+  if (style && (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(style) === 'object') {
     var styleStr_1 = '';
     Object.keys(style).forEach(function (key) {
       var lowerCaseKey = key.replace(/([A-Z])/g, '-$1').toLowerCase();
@@ -9384,7 +9384,7 @@ var AtComponent = /** @class */function (_super) {
    * @returns {String}
    */
   AtComponent.prototype.mergeStyle = function (style1, style2) {
-    if (style1 && (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(style1) === 'object' && style2 && (0,E_Projects_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(style2) === 'object') {
+    if (style1 && (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(style1) === 'object' && style2 && (0,E_Projects_Gitee_Taro_demo_node_modules_babel_runtime_helpers_esm_typeof_js__WEBPACK_IMPORTED_MODULE_2__["default"])(style2) === 'object') {
       return Object.assign({}, style1, style2);
     }
     return objectToString(style1) + objectToString(style2);

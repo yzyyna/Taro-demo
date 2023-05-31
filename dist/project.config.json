@@ -1,5 +1,5 @@
 {
-  "miniprogramRoot": "./",
+  "miniprogramRoot": "",
   "projectname": "wx-front-mp",
   "description": "WeChat mini program for fortrust panda.",
   "appid": "wxaf7c95ede3f35732",
@@ -16,7 +16,8 @@
       "outputPath": ""
     },
     "minifyWXSS": false,
-    "minifyWXML": false
+    "minifyWXML": false,
+    "condition": false
   },
   "compileType": "miniprogram",
   "libVersion": "2.31.0",
