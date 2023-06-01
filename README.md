@@ -4,7 +4,7 @@
 A Taro APP demo(for WeChat mini-programmer).
 
 
-
+  
 #### 软件架构
 软件架构说明
 Taro+React+JavaScript+Taro UI
