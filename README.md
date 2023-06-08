@@ -4,13 +4,13 @@
 A Taro APP demo(for WeChat mini-programmer).
 
 
-    
-#### 软件架构  
+   
+#### 软件架构
 软件架构说明
-Taro+React+JavaScript+Taro UI  
+Taro+React+JavaScript+Taro UI
 
-
-#### 安装教程
+  
+#### 安装教程  
 
 1.  git clone https://gitee.com/demon3443002624/Taro-demo.git
 2.  cd Taro-demo
